@@ -1,0 +1,45 @@
+.cardapioComidaEsquerda {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.comidaImagemEsquerda {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+.comidaDireita {
+    grid-column: 2/2;
+    grid-row: 1;
+}
+
+.comidaDescricaoDireita {
+    grid-column: 2/2;
+    grid-row: 1;
+    margin-top: 32px;
+}
+
+.cardapioComidaDireita {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.comidaImagemDireita {
+    grid-column: 2/2;
+    grid-row: 1/2
+}
+
+.comidaEsquerda {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.comidaDescricaoEsquerda {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-top: 32px;
+}
